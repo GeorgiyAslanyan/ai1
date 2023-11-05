@@ -69,3 +69,7 @@ body {
 *::-webkit-scrollbar-thumb:active {
   background-color: #9D979D;
 }
+
+.code pre {
+  background-color: transparent !important;
+}

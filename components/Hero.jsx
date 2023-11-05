@@ -21,7 +21,7 @@ const Hero = () => {
           </div>
         </Link>
       </div>
-      <video src="/bot.mp4" autoPlay muted loop></video>
+      <video src="/bot.webm" autoPlay muted loop></video>
     </div>
   );
 };
