@@ -26,10 +26,10 @@ const Navbar = () => {
 
   return (
     <div
-      className={`transition-all top-0 ease-linear duration-200 fixed rounded-[24px] lg:rounded-[32px] px-3 sm:px-10 z-40 ${
+      className={`transition-all top-0 ease-linear duration-200 fixed px-3 sm:px-10 z-40 ${
         scrollY > 50
-          ? " bg-[#3b3b3b] w-[95%] mt-5 py-3 sm:py-5"
-          : "lg:w-full py-3 sm:py-7 mt-5 lg:mt-0 bg-transparent lg:bg-transparent w-[95%]"
+          ? " bg-[#3b3b3b] w-[95%] mt-5 py-3 sm:py-5 rounded-[24px] lg:rounded-[32px]"
+          : "lg:w-full py-3 mt-5 lg:mt-0 bg-[#3b3b3b] bg-opacity-80 rounded-[24px] lg:rounded-none backdrop-blur-md w-[95%]"
       }`}>
       <div className="w-full justify-between flex items-center">
         <div>
