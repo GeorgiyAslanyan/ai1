@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600&display=swap');
+
+.font-outline-1 {
+  -webkit-text-stroke: 1px white;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,6 +23,7 @@
 }
 
 body {
+  font-family: 'Roboto Mono', monospace;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +31,41 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #726E72 inherit;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: inherit;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: inherit;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: inherit;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #726E72;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #9C969C;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #9D979D;
 }

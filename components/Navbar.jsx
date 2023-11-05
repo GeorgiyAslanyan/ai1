@@ -1,0 +1,44 @@
+"use client";
+import React, { useEffect, useState } from "react";
+import Image from 'next/image'
+import Link from 'next/link'
+import {DocumentTextIcon} from '@heroicons/react/24/outline'
+
+const Navbar = () => {
+  const [scrollY, setScrollY] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
+  const [burger, setBurger] = useState(false);
+  const [isDe, setIsDe] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleScroll = () => {
+    setScrollY(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  return (
+    <div className={`transition-all top-0 ease-linear duration-200 fixed rounded-[24px] lg:rounded-[32px] px-3 sm:px-10 z-40 ${
+      scrollY > 50
+        ? " bg-[#1F1E1F] w-[95%] mt-5 py-3 sm:py-5"
+        : "lg:w-full py-3 sm:py-7 mt-5 lg:mt-0 bg-[#1F1E1F] lg:bg-inherit w-[95%]"
+    }`}>
+<div className='w-full justify-between flex items-center'>
+        <div><Image alt="logo" width={141} height={54} src={'/logo.PNG'}/></div>
+        <div className='flex gap-3'>
+            <Link href={'#'} className='bg-[#4D4D4D] hover:bg-white hover:text-black text-white h-12 w-12 rounded-full justify-center items-center flex'><DocumentTextIcon width={24} height={24}/></Link>
+            <Link href={'#'} className='bg-[#4D4D4D] hover:bg-white hover:text-black text-white h-12 rounded-full py-2 px-8 justify-center items-center flex'>Uniswap</Link>
+            </div>
+    </div>
+    </div>
+    
+  )
+}
+
+export default Navbar
