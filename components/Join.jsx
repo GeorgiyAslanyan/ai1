@@ -39,7 +39,7 @@ const Join = () => {
       <p>
         Disclaimer: The information provided by Ai1 on this website does not
         constitute investment advice, financial advice, trading advice, or any
-        other sort of advice and you should not treat any of the website's
+        other sort of advice and you should not treat any of the website&apos;s
         content as such. Ai1 does not recommend that any cryptocurrency should
         be bought, sold, or held by you. Do conduct your own due diligence and
         consult your financial advisor before making any investment decisions.
@@ -49,13 +49,13 @@ const Join = () => {
           not limited to trading risks, software and technology risks, and
           market volatility. Participation in the Ai1 ecosystem or trading
           markets should be considered a high-risk activity. The information is
-          provided "as is" without warranty of any kind, express or implied.
+          provided &#34;as is&#34; without warranty of any kind, express or implied.
         </p>
       <p>
         Prices of cryptocurrencies are extremely volatile and may be affected by
         external factors such as financial, regulatory, or political events.
         Trading on margin increases the financial risks. Past performance of
-        Ai1's trading system or market behavior is not indicative of future
+        Ai1&apos;s trading system or market behavior is not indicative of future
         results. By accessing and using the Ai1 website and any related
         services, you acknowledge that you have read, understood, and agree to
         be bound by our terms and conditions. If you do not agree with the terms
