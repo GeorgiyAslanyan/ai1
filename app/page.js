@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Example from "@/components/Example";
 import Hero from "@/components/Hero";
 import Info from "@/components/Info";
@@ -11,16 +12,13 @@ export default function Home() {
       <Navbar />
       <Hero />
       <p className="text-center max-w-[1390px] text-2xl pt-4 pb-10">
-        Welcome to the world of Ai1, a project that is poised to redefine the
-        landscape of automated trading. At its core, ai1 is an all-encompassing,
-        multi-lingual trading bot, crafted with a blend of cutting-edge
-        technologies and trading strategies.
-      </p>
+      Enter the realm of Ai1, where the future of automated algorithmic trading is being reshaped by artificial intelligence. At its heart lies Ai1, a comprehensive trading system, forged from a fusion of advanced technologies and innovative market methodologies.      </p>
       <div className="relative w-full flex items-center justify-center">
       <img src="/codebg.svg" alt="bg" className="w-full absolute z-0 top-0 left-0 object-cover"/>
       <Example />
       </div>
       <Info />
+      <About />
       <Join />
     </main>
   );

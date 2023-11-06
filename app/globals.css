@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .font-outline-1 {
   -webkit-text-stroke: 1px white;
@@ -31,6 +32,11 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.headerGradient {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
 }
 
 /* Firefox */
@@ -73,3 +79,4 @@ body {
 .code pre {
   background-color: transparent !important;
 }
+

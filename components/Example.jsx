@@ -1,5 +1,7 @@
+'use client'
 import React from "react";
 import CodeSnippet from "./Code";
+import {motion} from 'framer-motion'
 
 const code1 = `import { BybitCredentials, BybitInterval } from '../types';
 import { RestClientV5, WebsocketClient } from 'bybit-api';
@@ -90,11 +92,18 @@ export class BackTest {
 
 const Example = () => {
   return (
-      <div className="grid grid-cols-3 max-w-[1290px] gap-10 py-10 z-10">
+      <motion.div initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay:0 }}
+      variants={{
+        visible: { opacity: 1, translateY: 0 },
+        hidden: { opacity: 0, translateY: '20px' }
+      }}  className="grid grid-cols-3 max-w-[1290px] gap-10 py-10 z-10">
       <CodeSnippet code={code1} />
       <CodeSnippet code={code2} />
       <CodeSnippet code={code3} />
-    </div>
+    </motion.div>
     
   );
 };
