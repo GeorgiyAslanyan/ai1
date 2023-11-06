@@ -90,11 +90,12 @@ export class BackTest {
 
 const Example = () => {
   return (
-    <div className="flex gap-10 py-10">
+      <div className="grid grid-cols-3 max-w-[1290px] gap-10 py-10 z-10">
       <CodeSnippet code={code1} />
       <CodeSnippet code={code2} />
       <CodeSnippet code={code3} />
     </div>
+    
   );
 };
 
