@@ -4,20 +4,20 @@ import React from "react";
 
 const Join = () => {
   return (
-    <div className="flex flex-col gap-16 justify-center items-center mt-28 mb-10 max-w-[1290px]">
-      <div className="grid grid-cols-5 gap-20">
-        <div className="flex flex-col col-span-3 gap-10">
-          <h2 className="headerGradient  leading-[110%] text-[64px] bg-clip-text text-transparent  bg-gradient-to-b from-white to-[#AFAFAF]">
+    <div className="flex flex-col gap-16 justify-center items-center mt-5 sm:mt-28 mb-5 sm:mb-10 max-w-[1290px] w-[96%] lg:w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-5 gap-20">
+        <div className="flex flex-col col-span-1 lg:col-span-3 gap-10">
+          <h2 className="headerGradient leading-[110%] text-[41px] sm:text-[53px] md:text-[64px] bg-clip-text text-transparent text-center sm:text-start bg-gradient-to-b from-white to-[#AFAFAF]">
             Community-Driven Development
           </h2>
-          <p className="text-[24px]">
+          <p className="text-[16px] sm:text-[24px] text-justify sm:text-start">
             Ai1 embraces a community-centric approach, where token holders can
             propose and vote on future developments, changes in tax structure,
             or other significant decisions, ensuring a democratic and
             participatory ecosystem.
           </p>
         </div>
-        <div className="flex flex-col gap-10 col-span-2">
+        <div className="flex flex-row sm:flex-col justify-center sm:justify-start gap-10 col-span-1 lg:col-span-2">
           <div className="flex gap-6 items-center">
             <a
             href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer"
@@ -31,9 +31,9 @@ const Join = () => {
                 src={"/tg.jpg"}
               />
             </a>
-            <div className="flex flex-col justify-between">
+            <div className="hidden sm:flex flex-col justify-between">
               <p className="font-bold text-[24px]">Community Chat</p>
-              <p className="text-[20px] text-gray-400">
+              <p className="text-[20px] flex text-gray-400">
                 Ask general questions and chat with the community on Telegram
               </p>
             </div>
@@ -50,9 +50,9 @@ const Join = () => {
                 src={"/x.png"}
               />
             </a>
-            <div className="flex flex-col justify-between">
+            <div className="hidden sm:flex flex-col justify-between">
               <p className="font-bold text-[24px]">Twitter</p>
-              <p className="text-[20px] text-gray-400">
+              <p className="text-[20px] flex text-gray-400">
                 Follow us to get the latest news and updates.
               </p>
             </div>
@@ -69,16 +69,16 @@ const Join = () => {
                 src={"/medium.png"}
               />
             </a>
-            <div className="flex flex-col justify-between">
+            <div className="hidden sm:flex flex-col justify-between">
               <p className="font-bold text-[24px]">Medium</p>
-              <p className="text-[20px] text-gray-400">
+              <p className="text-[20px] flex text-gray-400">
                 A place where we share our thoughts.
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-3 mt-5">
+      <div className="flex flex-col gap-3 mt-5 text-[12px] sm:text-[16px] text-justify sm:text-start">
         <p>
           Disclaimer: The information provided by Ai1 on this website does not
           constitute investment advice, financial advice, trading advice, or any

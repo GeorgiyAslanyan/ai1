@@ -99,7 +99,7 @@ const Example = () => {
       variants={{
         visible: { opacity: 1, translateY: 0 },
         hidden: { opacity: 0, translateY: '20px' }
-      }}  className="grid grid-cols-3 max-w-[1290px] gap-10 py-10 z-10">
+      }}  className="grid grid-cols-1 lg:grid-cols-3 max-w-[1290px] w-[96%] lg:w-full gap-10 py-10 z-10">
       <CodeSnippet code={code1} />
       <CodeSnippet code={code2} />
       <CodeSnippet code={code3} />

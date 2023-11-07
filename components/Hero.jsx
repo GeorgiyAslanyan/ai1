@@ -5,12 +5,15 @@ import {ArrowRightIcon, ChevronRightIcon} from '@heroicons/react/24/outline'
 
 const Hero = () => {
   return (
-    <div className="min-h-screen grid grid-cols-2 items-center gap-10 justify-between px-20 relative">
+    <div className="min-h-screen flex flex-col-reverse lg:grid lg:grid-cols-2 items-center gap-3 lg:gap-10 justify-center lg:justify-between px-5 lg;px-20  relative">
       {/* <img src="/herobg.svg" alt="bg" className="w-full z-0 absolute bottom-0 right-0 object-cover"/> */}
 
-      <div className="flex flex-col gap-8">
-        <Image alt="logo" width={425} height={194} src={"/logoHero.png"} />
-        <p className="text-[36px] font-bold text-transparent font-outline-1 text-[#4D4D4D]">
+      <div className="flex flex-col text-center lg:text-start items-center lg:items-start gap-8">
+        <Image alt="logo" width={425} height={194} className="hidden sm:block" src={"/logoHero.png"} />
+        <p className="hidden sm:block text-[36px] font-bold text-transparent font-outline-1 text-[#4D4D4D]">
+          Revolutionizing Trading with Ai Innovation and Rewards
+        </p>
+        <p className="block sm:hidden text-[20px] font-bold text-[#fff]">
           Revolutionizing Trading with Ai Innovation and Rewards
         </p>
         <a

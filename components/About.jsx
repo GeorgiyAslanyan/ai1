@@ -4,7 +4,8 @@ import {motion} from 'framer-motion'
 
 const About = () => {
   return (
-    <div className='grid grid-cols-3 max-w-[1290px] mt-10 w-full'>
+    <>
+    <div className='hidden lg:grid grid-cols-1 lg:grid-cols-3 max-w-[1290px] mt-10 w-[96%] lg:w-full'>
         <motion.div initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
@@ -41,6 +42,45 @@ const About = () => {
             <p className='text-[#ABABAB] text-[20px]'>Locked on Uncrypt</p>
         </motion.div>
     </div>
+    <div className='grid lg:hidden grid-cols-1 gap-4 lg:grid-cols-3 max-w-[1290px] mt-10 w-[96%] lg:w-full'>
+        <motion.div initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay:0 }}
+      variants={{
+        visible: { opacity: 1, translateY: 0 },
+        hidden: { opacity: 0, translateY: '40px' }
+      }} className='bg-gradient-to-r col-span-1 flex flex-col gap-4 from-[#31353D] to-[#292929] rounded-xl border border-[#38453F] p-[10px] sm:p-5'>
+            <h3 className='font-bold text-[24px] upperase bg-clip-text text-transparent bg-gradient-to-r from-white to-[#AFAFAF]'>TOTAL SUPPLLY</h3>
+            <p className='text-[#ABABAB] text-[20px]'>100.000.000 Ai1 tokens</p>
+        </motion.div>
+        <motion.div  initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay:0.35 }}
+      variants={{
+        visible: { opacity: 1, translateY: 0 },
+        hidden: { opacity: 0, translateY: '40px' }
+      }}  className='bg-gradient-to-r col-span-1 flex flex-col  from-[#31353D] to-[#292929] rounded-xl border border-[#38453F] p-[10px] sm:p-5'>
+            <h3 className='font-bold text-[24px] upperase mb-4 bg-clip-text text-transparent  bg-gradient-to-r from-white to-[#AFAFAF]'>TAXES</h3>
+            <p className='text-[#ABABAB] text-[20px]'>Transfer, Buy and Sell: 6%</p>
+            <p className='text-[#ABABAB] text-[20px]'>3% development</p>
+            <p className='text-[#ABABAB] text-[20px]'>3% holder rewards (lottery <br/>mechanism)</p>
+        </motion.div>
+        <motion.div  initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay:0.7 }}
+      variants={{
+        visible: { opacity: 1, translateY: 0 },
+        hidden: { opacity: 0, translateY: '40px' }
+      }} className='bg-gradient-to-r col-span-1 flex flex-col gap-4 from-[#31353D] to-[#292929] rounded-xl border border-[#38453F] p-[10px] sm:p-5'>
+            <h3 className='font-bold text-[24px] upperase bg-clip-text text-transparent  bg-gradient-to-r from-white to-[#AFAFAF]'>LIQUIDITY</h3>
+            <p className='text-[#ABABAB] text-[20px]'>Locked on Uncrypt</p>
+        </motion.div>
+    </div>
+    </>
+    
   )
 }
 
