@@ -11,7 +11,7 @@ export default function Home() {
       <img
         src="/greenbg.svg"
         alt="bg"
-        className="w-full z-0 absolute top-0 object-cover"
+        className="w-full z-10 absolute top-0 object-cover"
       />
       <Navbar />
       <Hero />
