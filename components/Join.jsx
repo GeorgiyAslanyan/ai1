@@ -7,10 +7,10 @@ const Join = () => {
     <div className="flex flex-col gap-10 justify-center items-center mt-10 sm:mt-28 mb-5 sm:mb-10 max-w-[1290px] w-[96%] lg:w-full">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-10">
         <div className="flex flex-col col-span-1 lg:col-span-3 gap-10">
-          <h2 className="headerGradient leading-[110%] text-[20px] sm:text-[53px] md:text-[64px] bg-clip-text text-transparent text-center sm:text-start bg-gradient-to-b from-white to-[#AFAFAF]">
+          <h2 className="headerGradient leading-[110%] text-[24px] sm:text-[53px] md:text-[64px] bg-clip-text text-transparent text-center sm:text-start bg-gradient-to-b from-white to-[#AFAFAF]">
             Community-Driven Development
           </h2>
-          <p className="text-[16px] sm:text-[24px] text-justify sm:text-start">
+          <p className="text-[16px] sm:text-[24px] text-center sm:text-start">
             AI1 embraces a community-centric approach, where token holders can
             propose and vote on future developments, changes in tax structure,
             or other significant decisions, ensuring a democratic and
@@ -112,7 +112,7 @@ const Join = () => {
           contained in this website.
         </p>
       </div>
-      <p>© 2023 All-in-One</p>
+      <p>© 2023 | all-in-one</p>
     </div>
   );
 };
