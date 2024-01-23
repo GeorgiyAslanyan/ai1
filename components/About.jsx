@@ -51,9 +51,9 @@ const About = () => {
         hidden: { opacity: 0, translateX: '100px' }
       }} className='bg-[#3b3b3b]  bg-opacity-40 col-span-1 shadow-md  flex flex-col -translate-x-12 backdrop-blur-md  rounded-xl border border-[#3b3b3b] p-5'>
       <h3 className='font-bold text-[20px] sm:text-[24px] upperase mb-4 bg-clip-text text-transparent  bg-gradient-to-r from-white to-[#AFAFAF]'>TAXES</h3>
-      <p className='text-[#ABABAB]'>6% Buy Tax:</p>
+      <p className='text-white'>6% Buy Tax:</p>
       <p className='text-[#ABABAB]'>3% Development / 3% Lottery</p>
-      <p className='text-[#ABABAB]'>6% Sell Tax:</p>
+      <p className='text-white'>6% Sell Tax:</p>
       <p className='text-[#ABABAB]'>3% Development / 3% Lottery</p>
         </motion.div>
         <motion.a initial="hidden"
@@ -113,9 +113,9 @@ const About = () => {
         hidden: { opacity: 0, translateY: '40px' }
       }}  className='bg-[#3b3b3b]  bg-opacity-50 col-span-1 flex flex-col  shadow-md   backdrop-blur-md  rounded-xl border border-[#3b3b3b] p-[10px] sm:p-5'>
             <h3 className='font-bold text-[20px] sm:text-[24px] upperase mb-4 bg-clip-text text-transparent  bg-gradient-to-r from-white to-[#AFAFAF]'>TAXES</h3>
-            <p className='text-[#ABABAB]'>6% Buy Tax:</p>
+            <p className='text-white'>6% Buy Tax:</p>
       <p className='text-[#ABABAB]'>3% Development / 3% Lottery</p>
-      <p className='text-[#ABABAB]'>6% Sell Tax:</p>
+      <p className='text-white'>6% Sell Tax:</p>
       <p className='text-[#ABABAB]'>3% Development / 3% Lottery</p>
         </motion.div>
         <motion.a initial="hidden"

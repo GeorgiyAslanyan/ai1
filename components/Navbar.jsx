@@ -43,7 +43,7 @@ const Navbar = () => {
           </a>
           <Link
             href={"#"}
-            className="bg-[#4D4D4D] h-9 sm:h-12 group pl-6 pr-4 w-fit rounded-full gap-5 text-white hover:text-black items-center hover:bg-white transition-all ease-linear duration-200 flex justify-between ">
+            className="bg-[#4D4D4D] h-9 sm:h-12 group pl-4 sm:pl-6 pr-4 w-fit rounded-full gap-5 text-white hover:text-black items-center hover:bg-white transition-all ease-linear duration-200 flex justify-between ">
             BUY NOW
             <div className="h-8 w-8 hidden sm:flex items-center justify-center relative group-hover:bg-[#1F1E1F] group-hover:text-white text-black rounded-full p-2 transition-all ease-linear duration-200  bg-white">
               <ArrowRightIcon
