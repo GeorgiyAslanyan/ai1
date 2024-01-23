@@ -15,7 +15,7 @@ export default function Home() {
       />
       <Navbar />
       <Hero />
-      <p className="sm:text-center max-w-[1390px] text-[14px] text-center sm:text-2xl pt-0 lg:pt-4 pb-0 lg:pb-10 w-[96%] lg:w-full">
+      <p className="sm:text-center max-w-[1390px] text-[14px] text-[#ABABAB] text-center sm:text-2xl pt-0 pb-0 lg:pb-10 w-[96%] lg:w-full">
         Enter the realm of AI1, where the future of automated algorithmic
         trading is being reshaped by artificial intelligence. At its heart lies
         AI1, a comprehensive trading system, forged from a fusion of advanced

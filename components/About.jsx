@@ -17,7 +17,7 @@ const About = () => {
         hidden: { opacity: 0, translateX: '100px' }
       }} className='bg-[#3b3b3b]  bg-opacity-40 col-span-1 shadow-md  flex flex-col gap-4 translate-x-3 backdrop-blur-md rounded-xl border border-[#3b3b3b] p-5'>
             <h3 className='font-bold text-[20px] sm:text-[24px] upperase bg-clip-text text-transparent bg-gradient-to-r from-white to-[#AFAFAF]'>TOTAL SUPPLY</h3>
-            <p className='text-[#ABABAB]'>100.000.000 AI1 tokens</p>
+            <p className='text-[#ABABAB]'>The total supply of AI1 tokens <br /> is capped at 100,000,000.</p>
         </motion.div>
         <motion.div  initial="hidden"
       whileInView="visible"
@@ -28,9 +28,12 @@ const About = () => {
         hidden: { opacity: 0, translateX: '100px' }
       }}  className='bg-[#3b3b3b]  bg-opacity-40 col-span-1 shadow-md  flex flex-col -translate-x-3 backdrop-blur-md  rounded-xl border border-[#3b3b3b] p-5'>
             <h3 className='font-bold text-[20px] sm:text-[24px] upperase mb-4 bg-clip-text text-transparent  bg-gradient-to-r from-white to-[#AFAFAF]'>TAXES</h3>
-            <p className='text-[#ABABAB]'>Transfer, Buy and Sell: 6%</p>
-            <p className='text-[#ABABAB]'>3% development</p>
-            <p className='text-[#ABABAB]'>3% holder rewards (lottery <br/>mechanism)</p>
+            <p className='text-[#ABABAB]'>Buy Tax: 6 %</p>
+            <p className='text-[#ABABAB]'>3% for Development</p>
+            <p className='text-[#ABABAB]'>3% Instant Lottery</p>
+            <p className='text-[#ABABAB]'>Sell Tax: 6%</p>
+            <p className='text-[#ABABAB]'>3% for Development</p>
+            <p className='text-[#ABABAB]'>3% Instant Lottery</p>
         </motion.div>
         <motion.div  initial="hidden"
       whileInView="visible"
@@ -41,7 +44,7 @@ const About = () => {
         hidden: { opacity: 0, translateX: '100px' }
       }} className='bg-[#3b3b3b]  bg-opacity-40 col-span-1 flex shadow-md  flex-col -translate-x-6 gap-4 backdrop-blur-md  rounded-xl border border-[#3b3b3b] p-5'>
             <h3 className='font-bold text-[20px] sm:text-[24px] upperase bg-clip-text text-transparent  bg-gradient-to-r from-white to-[#AFAFAF]'>LIQUIDITY</h3>
-            <p className='text-[#ABABAB]'>Locked on Uncrypt</p>
+            <p className='text-[#ABABAB]'>To ensure market stability and investor <br /> confidence, the liquidity is locked on UNCX.</p>
         </motion.div>
         <motion.a initial="hidden"
       whileInView="visible"
@@ -66,7 +69,7 @@ const About = () => {
         hidden: { opacity: 0, translateY: '40px' }
       }} className='bg-[#3b3b3b]  bg-opacity-50 col-span-1 flex flex-col gap-4 shadow-md  backdrop-blur-md  rounded-xl border border-[#3b3b3b] p-[10px] sm:p-5'>
             <h3 className='font-bold text-[20px] sm:text-[24px] upperase bg-clip-text text-transparent bg-gradient-to-r from-white to-[#AFAFAF]'>TOTAL SUPPLY</h3>
-            <p className='text-[#ABABAB]'>100.000.000 AI1 tokens</p>
+            <p className='text-[#ABABAB]'>The total supply of AI1 tokens <br /> is capped at 100,000,000.</p>
         </motion.div>
         <motion.div  initial="hidden"
       whileInView="visible"
@@ -77,9 +80,12 @@ const About = () => {
         hidden: { opacity: 0, translateY: '40px' }
       }}  className='bg-[#3b3b3b]  bg-opacity-50 col-span-1 flex flex-col  shadow-md   backdrop-blur-md  rounded-xl border border-[#3b3b3b] p-[10px] sm:p-5'>
             <h3 className='font-bold text-[20px] sm:text-[24px] upperase mb-4 bg-clip-text text-transparent  bg-gradient-to-r from-white to-[#AFAFAF]'>TAXES</h3>
-            <p className='text-[#ABABAB]'>Transfer, Buy and Sell: 6%</p>
-            <p className='text-[#ABABAB]'>3% development</p>
-            <p className='text-[#ABABAB]'>3% holder rewards (lottery <br/>mechanism)</p>
+            <p className='text-[#ABABAB]'>Buy Tax: 6 %</p>
+            <p className='text-[#ABABAB]'>3% for Development</p>
+            <p className='text-[#ABABAB]'>3% Instant Lottery</p>
+            <p className='text-[#ABABAB]'>Sell Tax: 6%</p>
+            <p className='text-[#ABABAB]'>3% for Development</p>
+            <p className='text-[#ABABAB]'>3% Instant Lottery</p>
         </motion.div>
         <motion.div  initial="hidden"
       whileInView="visible"
@@ -90,7 +96,7 @@ const About = () => {
         hidden: { opacity: 0, translateY: '40px' }
       }} className='bg-[#3b3b3b]  bg-opacity-50 col-span-1 flex flex-col gap-4 shadow-md  backdrop-blur-md  rounded-xl border border-[#3b3b3b] p-[10px] sm:p-5'>
             <h3 className='font-bold text-[20px] sm:text-[24px] upperase bg-clip-text text-transparent  bg-gradient-to-r from-white to-[#AFAFAF]'>LIQUIDITY</h3>
-            <p className='text-[#ABABAB]'>Locked on Uncrypt</p>
+            <p className='text-[#ABABAB]'>To ensure market stability and investor <br /> confidence, the liquidity is locked on UNCX.</p>
         </motion.div>
         <motion.a initial="hidden"
       whileInView="visible"

@@ -10,7 +10,7 @@ const Join = () => {
           <h2 className="headerGradient leading-[110%] text-[24px] sm:text-[53px] md:text-[64px] bg-clip-text text-transparent text-center sm:text-start bg-gradient-to-b from-white to-[#AFAFAF]">
             Community-Driven Development
           </h2>
-          <p className="text-[16px] sm:text-[24px] text-center sm:text-start">
+          <p className="text-[16px] text-[#ABABAB] sm:text-[24px] text-center sm:text-start">
             AI1 embraces a community-centric approach, where token holders can
             propose and vote on future developments, changes in tax structure,
             or other significant decisions, ensuring a democratic and
@@ -34,7 +34,7 @@ const Join = () => {
             <div className="hidden sm:flex flex-col justify-between">
               <p className="font-bold text-[24px]">Community Chat</p>
               <p className="text-[20px] flex text-gray-400">
-                Ask general questions and chat with the community on Telegram
+                Ask general questions and chat with the community on Telegram.
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@ const Join = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-3 mt-0 md:mt-5 text-[12px] sm:text-[16px] text-justify sm:text-start">
+      <div className="flex flex-col gap-3 text-[#ABABAB] mt-0 md:mt-5 text-[12px] sm:text-[16px] text-justify sm:text-start">
         <p>
           Disclaimer: The information provided by AI1 on this website does not
           constitute investment advice, financial advice, trading advice, or any
@@ -112,7 +112,7 @@ const Join = () => {
           contained in this website.
         </p>
       </div>
-      <p>© 2023 | all-in-one</p>
+      <p className="text-[#ABABAB]">© 2023 | all-in-one</p>
     </div>
   );
 };
