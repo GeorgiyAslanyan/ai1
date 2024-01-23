@@ -36,11 +36,11 @@ const Navbar = () => {
           <Image alt="logo" width={141} height={54} src={"/logo.PNG"} className="h-9 w-auto sm:h-12"/>
         </div>
         <div className="flex gap-3">
-          <Link
-            href={"#"}
+          <a
+            href="https://docs.ai1.wtf" target="_blank" rel="noopener noreferrer"
             className="bg-[#4D4D4D] hover:bg-white hover:text-black text-white h-9 w-9 sm:h-12 sm:w-12 rounded-full justify-center items-center flex">
             <DocumentTextIcon width={24} height={24} />
-          </Link>
+          </a>
           <Link
             href={"#"}
             className="bg-[#4D4D4D] h-9 sm:h-12 group pl-6 pr-4 w-fit rounded-full gap-5 text-white hover:text-black items-center hover:bg-white transition-all ease-linear duration-200 flex justify-between ">
