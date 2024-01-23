@@ -33,17 +33,17 @@ const Navbar = () => {
       }`}>
       <div className="w-full justify-between flex items-center">
         <div>
-          <Image alt="logo" width={141} height={54} src={"/logo.PNG"} />
+          <Image alt="logo" width={141} height={54} src={"/logo.PNG"} className="h-9 w-auto sm:h-12"/>
         </div>
         <div className="flex gap-3">
           <Link
             href={"#"}
-            className="bg-[#4D4D4D] hover:bg-white hover:text-black text-white h-12 w-12 rounded-full justify-center items-center flex">
+            className="bg-[#4D4D4D] hover:bg-white hover:text-black text-white h-9 w-9 sm:h-12 sm:w-12 rounded-full justify-center items-center flex">
             <DocumentTextIcon width={24} height={24} />
           </Link>
           <Link
             href={"#"}
-            className="bg-[#4D4D4D] h-12 group pl-6 pr-4 w-fit rounded-full gap-5 text-white hover:text-black items-center hover:bg-white transition-all ease-linear duration-200 flex justify-between ">
+            className="bg-[#4D4D4D] h-9 sm:h-12 group pl-6 pr-4 w-fit rounded-full gap-5 text-white hover:text-black items-center hover:bg-white transition-all ease-linear duration-200 flex justify-between ">
             Uniswap
             <div className="h-8 w-8 hidden sm:flex items-center justify-center relative group-hover:bg-[#1F1E1F] group-hover:text-white text-black rounded-full p-2 transition-all ease-linear duration-200  bg-white">
               <ArrowRightIcon
