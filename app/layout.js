@@ -2,7 +2,7 @@ import './globals.css'
 
 
 export const metadata = {
-  title: 'AI1',
+  title: 'all-in-one',
   description: 'Revolutionizing Trading with AI Innovation and Rewards',
 }
 
