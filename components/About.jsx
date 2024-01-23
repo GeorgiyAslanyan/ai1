@@ -52,7 +52,7 @@ const About = () => {
         hidden: { opacity: 0}
       }} 
           className="rounded-full ml-3 sm:self-start z-10 mt-5 px-4 py-2 w-fit bg-[#676809] duration-100 ease-linear transition-all hover:shadow-[0px_0px_30px_2px_#676809] flex items-center gap-3 shadow-[0px_0px_0px_0px_#676809]"
-          href={"#"}>
+          href={"https://docs.ai1.wtf/tokenomics"} target="_blank" rel="noopener noreferrer">
           <p>Documentation</p> <ArrowUpRightIcon width={18} h={18} />
         </motion.a>
     </div>
@@ -101,7 +101,7 @@ const About = () => {
         hidden: { opacity: 0 }
       }} 
           className="rounded-full justify-self-center z-10 mt-5 px-4 py-2 w-fit bg-[#676809] duration-100 ease-linear transition-all hover:shadow-[0px_0px_30px_2px_#676809] flex items-center gap-3 shadow-[0px_0px_0px_0px_#676809]"
-          href={"#"}>
+          href={"https://docs.ai1.wtf/tokenomics"}  target="_blank" rel="noopener noreferrer">
           <p>Documentation</p> <ArrowUpRightIcon width={18} h={18} />
         </motion.a>
     </div>
