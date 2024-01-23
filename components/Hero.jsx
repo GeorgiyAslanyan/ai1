@@ -17,7 +17,7 @@ const Hero = () => {
           Revolutionizing Trading with Ai Innovation and Rewards
         </p>
         <a
-          href="/whitepaper.pdf" target="_blank" rel="noopener noreferrer"
+          href="/" target="_blank" rel="noopener noreferrer"
           className="bg-[#B8B80B] hover:shadow-[0px_0px_35px_5px_#FFFFFF] shadow-[0px_0px_30px_2px_#B8B80B] group py-2 pl-6 pr-4 w-fit rounded-full text-[24px] gap-5 text-[#1F1E1F] items-center hover:scale-105 hover:bg-white transition-all ease-linear duration-200 flex justify-between ">
           WHITEPAPER
           <div className="h-10 w-10 flex items-center justify-center relative group-hover:bg-[#1F1E1F] group-hover:text-white text-[#1F1E1F] rounded-full p-3  transition-all ease-linear duration-200  bg-white">
@@ -29,7 +29,7 @@ const Hero = () => {
       <video src="/bot.webm" autoPlay playsInline muted loop className="z-0 hidden lg:flex">
       <source src="/bot.webm" type="video/webm" />
       </video>
-      <video autoPlay loop playsInline muted className="z-0 flex rounded-[50px] lg:hidden shadow-[inset_0px_0px_29px_18px_#0F0F0F]">
+      <video autoPlay loop playsInline auto muted className="z-0 flex rounded-[50px] lg:hidden shadow-[inset_0px_0px_29px_18px_#0F0F0F]">
         <source src="/botMobile.mp4" type="video/mp4" />
         </video>
     </div>

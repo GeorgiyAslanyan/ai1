@@ -20,7 +20,7 @@ const Join = () => {
         <div className="flex flex-row sm:flex-col justify-center sm:justify-start gap-10 col-span-1 lg:col-span-2">
           <div className="flex gap-6 items-center">
             <a
-            href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer"
+            href="https://t.me/ai1Labs" target="_blank" rel="noopener noreferrer"
               className="rounded-xl min-h-[70px] min-w-[70px] group border overflow-hidden bg-[#2f2f2f] border-gray-700 object-cover transition-all ease-linear duratuion-100 scale-100 hover:scale-105"
               >
               <Image
@@ -39,7 +39,7 @@ const Join = () => {
             </div>
           </div>
           <div className="flex gap-6  items-center">
-            <a href="http://x.com/" target="_blank" rel="noopener noreferrer"
+            <a href="https://twitter.com/ai1Labs" target="_blank" rel="noopener noreferrer"
               className="rounded-xl group min-h-[70px] min-w-[70px]  border overflow-hidden bg-[#2f2f2f] border-gray-700 object-cover transition-all ease-linear duratuion-100 scale-100 hover:scale-105"
               >
               <Image
@@ -58,7 +58,7 @@ const Join = () => {
             </div>
           </div>
           <div className="flex gap-6  items-center">
-            <a href="https://medium.com/" target="_blank" rel="noopener noreferrer"
+            <a href="https://medium.com/@ai1Labs" target="_blank" rel="noopener noreferrer"
               className="rounded-xl group min-h-[70px] min-w-[70px]  border overflow-hidden bg-[#2f2f2f] border-gray-700 object-cover transition-all ease-linear duratuion-100 scale-100 hover:scale-105"
               >
               <Image

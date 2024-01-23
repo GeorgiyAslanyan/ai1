@@ -11,7 +11,7 @@ export default function Home() {
       <img
         src="/greenbg.svg"
         alt="bg"
-        className="w-full z-10 absolute top-0 object-cover"
+        className="w-full z-10 absolute top-0 object-cover pointer-events-none"
       />
       <Navbar />
       <Hero />
@@ -25,12 +25,12 @@ export default function Home() {
         <img
           src="/codebg.svg"
           alt="bg"
-          className="w-full hidden lg:flex absolute z-0 top-0 left-0 object-cover"
+          className="w-full hidden lg:flex absolute z-0 top-0 left-0 object-cover pointer-events-none"
         />
         <img
           src="/codeMobilebg.svg"
           alt="bg"
-          className="w-full blur-sm h-full flex lg:hidden absolute z-0 top-0 left-0 object-cover"
+          className="w-full blur-sm h-full flex lg:hidden absolute z-0 top-0 left-0 object-cover pointer-events-none"
         />
         <Example />
       </div>
@@ -42,12 +42,12 @@ export default function Home() {
         <img
           src="/aboutbg.svg"
           alt="bg"
-          className="w-full blur-sm hidden sm:flex absolute z-0 top-0 left-0 object-cover"
+          className="w-full blur-sm hidden sm:flex absolute z-0 top-0 left-0 object-cover pointer-events-none"
         />
         <img
           src="/codeMobilebg.svg"
           alt="bg"
-          className="w-full blur-md h-[110%] flex sm:hidden absolute z-0 top-0 left-0 object-cover"
+          className="w-full blur-md h-[110%] flex sm:hidden absolute z-0 top-0 left-0 object-cover pointer-events-none"
         />
       </div>
       <Join />
