@@ -112,7 +112,7 @@ const Join = () => {
           contained in this website.
         </p>
       </div>
-      <p className="text-[#ABABAB]">© 2023 | all-in-one</p>
+      <p className="text-[#ABABAB]">© 2024 | all-in-one</p>
     </div>
   );
 };
