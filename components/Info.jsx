@@ -17,7 +17,7 @@ const Info = () => {
             <a className='rounded-full px-4 py-2 w-fit bg-[#676809] duration-100 ease-linear transition-all hover:shadow-[0px_0px_30px_2px_#676809] flex items-center gap-3 shadow-[0px_0px_0px_0px_#676809]' href={'https://docs.ai1.wtf/holders-rewards-and-benefits'}  target="_blank" rel="noopener noreferrer"><p>Learn more</p> <ArrowUpRightIcon width={18} h={18}/></a>
         </div>
         <div className='bg-gradient-to-br col-span-1 lg:col-span-2 flex flex-col gap-4 from-[#31353D] to-[#292929] rounded-xl border border-[#38453F] px-3 sm:px-5 py-5'>
-            <h3 className='font-semibold text-[20px] sm:text-[24px]'>Token Contract Detailsn</h3>
+            <h3 className='font-semibold text-[20px] sm:text-[24px]'>Token Contract Details</h3>
             <p className='text-[#ABABAB]'>This contract governs all token interactions, including transfers, tax collection, and lottery distributions, ensuring transparency and security in all transactions.</p>
             <p className='text-[#ABABAB] '>Smart Contract Address: 0x......</p>
         </div>
