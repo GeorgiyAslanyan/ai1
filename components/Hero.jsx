@@ -16,7 +16,7 @@ const Hero = () => {
         <p className="block sm:hidden text-[20px] font-bold text-[#fff]">
           Revolutionizing Trading with AI Innovation and Rewards
         </p>
-        {/* <a
+        <a
           href="/all-in-one.pdf" target="_blank" rel="noopener noreferrer"
           className="bg-[#676809] hover:shadow-[0px_0px_35px_5px_#FFFFFF] shadow-[0px_0px_30px_2px_#676809] group py-2 pl-6 pr-4 w-fit rounded-full text-[20px] sm:text-[24px] gap-5 text-white hover:text-[#1F1E1F] items-center hover:scale-105 hover:bg-white transition-all ease-linear duration-200 flex justify-between ">
           WHITEPAPER
@@ -24,7 +24,7 @@ const Hero = () => {
           <ArrowRightIcon width={28} height={28} className="absolute group-hover:translate-x-0 opacity-0 group-hover:opacity-100 translate-x-3 transition-all ease-linear duration-200"/>
           <ChevronRightIcon width={28} height={28} className="absolute group-hover:translate-x-3 opacity-100 group-hover:opacity-0 translate-x-0 transition-all ease-linear duration-200 "/>
           </div>
-        </a> */}
+        </a>
       </div>
       <video src="/bot.webm" autoPlay playsInline muted loop className="z-0 hidden lg:flex">
       <source src="/bot.webm" type="video/webm" />
