@@ -41,7 +41,7 @@ const Navbar = () => {
             className="bg-[#4D4D4D] hover:bg-white hover:text-black text-white h-9 w-9 sm:h-12 sm:w-12 rounded-full justify-center items-center flex">
             <DocumentTextIcon width={24} height={24} />
           </a>
-          <a
+          {/* <a
            target="_blank" rel="noopener noreferrer"
             href="https://app.uniswap.org/#/swap?outputCurrency=0x857154af6c7FF2F0DE049EebEAa0122D2F9bA8A5&use=V2"
             className="bg-[#4D4D4D] h-9 sm:h-12 group pl-4 sm:pl-6 pr-4 w-fit rounded-full gap-5 text-white hover:text-black items-center hover:bg-white transition-all ease-linear duration-200 flex justify-between ">
@@ -58,7 +58,7 @@ const Navbar = () => {
                 className="absolute group-hover:translate-x-3 opacity-100 group-hover:opacity-0 translate-x-0 transition-all ease-linear duration-200 "
               />
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

@@ -19,7 +19,7 @@ const Info = () => {
         <div className='bg-gradient-to-br col-span-1 lg:col-span-2 flex flex-col gap-4 from-[#31353D] to-[#292929] rounded-xl border border-[#38453F] px-3 sm:px-5 py-5'>
             <h3 className='font-semibold text-[20px] sm:text-[24px]'>Token Contract Details</h3>
             <p className='text-[#ABABAB]'>This contract governs all token interactions, including transfers, tax collection, and lottery distributions, ensuring transparency and security in all transactions.</p>
-            <p className='text-[#ABABAB] '>Smart Contract Address: 0x857154af6c7FF2F0DE049EebEAa0122D2F9bA8A5</p>
+            <p className='text-[#ABABAB] '>Smart Contract Address: 0x......</p>
         </div>
     </div>
   )
