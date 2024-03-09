@@ -26,12 +26,10 @@ const Hero = () => {
           </div>
         </a>
       </div>
-      <video src="/bot.webm" autoPlay playsInline muted loop className="z-0 hidden lg:flex">
+      <video autoPlay playsInline muted loop className="z-0 flex lg:block rounded-[50px] lg:rounded-none shadow-[inset_0px_0px_29px_18px_#0F0F0F] lg:shadow-none">
       <source src="/bot.webm" type="video/webm" />
+      <source src="/botMobile.mp4" type="video/mp4" />
       </video>
-      <video autoPlay loop playsInline auto muted className="z-0 flex rounded-[50px] lg:hidden shadow-[inset_0px_0px_29px_18px_#0F0F0F]">
-        <source src="/botMobile.mp4" type="video/mp4" />
-        </video>
     </div>
   );
 };
